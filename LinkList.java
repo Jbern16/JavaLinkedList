@@ -87,9 +87,9 @@ public class LinkList {
     Node node = find(data);
     if (node != null) {
       findParent(node.data).next = node.next;
-      return true; 
+        return true; 
     } else  {
-      return false;
+        return false;
     }
   }
 
@@ -117,9 +117,7 @@ public class LinkList {
     list.insert("node 3");
 
     System.out.println(list.pop().data);
-    
+  
     list.print();
-
-    
   }
 }
