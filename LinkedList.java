@@ -1,7 +1,7 @@
-public class LinkList {
+public class LinkedList {
   public Node head;
 
-  public LinkList(String data) {
+  public LinkedList(String data) {
     this.head = new Node(data);
   }
   public void insert(String data) {
@@ -110,7 +110,7 @@ public class LinkList {
   }
 
   public static void main(String args[]){
-    LinkList list = new LinkList("head node");
+    LinkedList list = new LinkedList("head node");
   
     list.insert("node 1"); 
     list.insert("node 2");
