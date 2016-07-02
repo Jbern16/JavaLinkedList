@@ -62,8 +62,10 @@ public class LinkedList {
   private Node find (String data, Node currentNode) {
     if (currentNode.data == data) {
         return currentNode;
-    } else {
+    } else if (currentNode.next != null){
         return find(data, currentNode.next);
+    } else {
+        return null;
     }
   }
 
