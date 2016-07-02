@@ -127,15 +127,4 @@ public class LinkedList {
     }
   }
 
-  public static void main(String args[]){
-    LinkedList list = new LinkedList("head node");
-  
-    list.insert("node 1"); 
-    list.insert("node 2");
-    list.insert("node 3");
-
-    System.out.println(list.pop().data);
-  
-    list.print();
-  }
 }
