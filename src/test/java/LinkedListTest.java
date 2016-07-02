@@ -66,5 +66,13 @@ public class LinkedListTest {
     assertEquals("node 3", tailNode.data);
   }
 
+  @Test
+  public void testLength(){
+    list.insert("node 1");
+    list.insert("node 2");
+    list.insert("node 3");
+    assertEquals(4, list.length());
+  }
+
 
 }
